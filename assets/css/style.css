@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #544B55;
+    background-image: url('/assets/images/always-grey.png');
+}
+
+header {
+    padding: 15px;
+    background-color: #EBCAEF;
+    color: #ffffff;
+}
+
+/*.page-header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+    border-style: outset;
+    border-color: #432747;
+    border-width: 0px 5px 5px 0px;
+}*/
+
+/* unvisited link */
+a:link {
+    color: purple;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: purple;
+  }
+
+.container {
+    padding: 15px;
+}
+
+.bg-purple {
+    background-color: #432747;
+}
+
+
+.page-main {
+    margin: 30px;
+    background-color: #ffffff;
+}
+
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #432747;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.img-float-right {
+    margin: 9px;
+    float: right;
+    width: 55%;
+    border-style: solid;
+    border-color: #432747;
+}
+
+.img-float-left {
+    margin: 9px;
+    float: left;
+    width: 55%;
+    border-style: solid;
+    border-color: #432747;
+}
+
+.card-body {
+    background-color: #EBCAEF;
+}
+
+.card-title {
+    color: #432747
+}
+
+.card-text {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+ div.gallery {
+    margin: 5px;
+    border: 5px solid #EBCAEF;
+
+}
+
+    div.gallery:hover {
+        border: 5px solid #432747;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    } 
+
+div.desc {
+    text-align: center;
+    font-weight: bold;
+    background-color: #EBCAEF;
+}
+
+.txt-center {
+    text-align: center;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #432747;
+    color: white;
+    text-align: center;
+}
