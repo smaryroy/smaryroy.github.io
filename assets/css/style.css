@@ -139,6 +139,10 @@ div.desc {
     align-items: center;
 }
 
+#profile-img{
+    max-width: 100%;
+}
+
 footer {
     position: fixed;
     left: 0;
